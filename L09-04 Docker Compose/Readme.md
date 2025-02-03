@@ -62,3 +62,8 @@ How many versions do we have running?
     docker compose ls
     docker compose -p test down
     docker compose ls
+
+## Logs
+
+    docker compose logs -f web-fe
+
